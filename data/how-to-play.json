@@ -1,0 +1,40 @@
+{
+  "controls": [
+    {
+      "key": "Space / Up Arrow",
+      "action": "Jump"
+    },
+    {
+      "key": "Left Arrow",
+      "action": "Move Left"
+    },
+    {
+      "key": "Right Arrow",
+      "action": "Move Right"
+    },
+    {
+      "key": "Down Arrow",
+      "action": "Slide / Duck"
+    },
+    {
+      "key": "Shift",
+      "action": "Use Power-up"
+    }
+  ],
+  "objectives": [
+    "Reach the end of each level by jumping across ice platforms",
+    "Collect fish and power-ups along the way",
+    "Avoid obstacles like falling icicles and slippery patches",
+    "Complete bonus challenges for extra points",
+    "Unlock new levels by collecting enough stars"
+  ],
+  "tips": [
+    "Time your jumps carefully - ice platforms may break after a few seconds",
+    "Use power-ups strategically to overcome difficult obstacles",
+    "Watch out for wind gusts that can affect your jump trajectory",
+    "Some platforms are hidden and only appear when you get close",
+    "Collect all fish in a level to unlock special rewards",
+    "Practice your timing on easier levels before tackling harder ones",
+    "Use the slide move to avoid low obstacles and gain speed"
+  ]
+}

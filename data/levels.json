@@ -1,0 +1,54 @@
+{
+  "levels": [
+    {
+      "name": "Frozen Peaks",
+      "description": "Navigate through treacherous mountain passes with narrow ice platforms and strong winds.",
+      "obstacles": [
+        "Falling icicles",
+        "Strong wind gusts",
+        "Breaking ice platforms",
+        "Narrow pathways"
+      ]
+    },
+    {
+      "name": "Glacial Caves",
+      "description": "Explore mysterious ice caves with hidden passages and crystal formations.",
+      "obstacles": [
+        "Dark areas requiring light sources",
+        "Crystal spikes",
+        "Water pools",
+        "Moving platforms"
+      ]
+    },
+    {
+      "name": "Arctic Storm",
+      "description": "Battle through a fierce snowstorm with limited visibility and dangerous conditions.",
+      "obstacles": [
+        "Blinding snow",
+        "Slippery surfaces",
+        "Falling snow blocks",
+        "Strong wind currents"
+      ]
+    },
+    {
+      "name": "Iceberg Islands",
+      "description": "Jump between floating icebergs in the open ocean.",
+      "obstacles": [
+        "Moving icebergs",
+        "Ocean currents",
+        "Seagull enemies",
+        "Tidal waves"
+      ]
+    },
+    {
+      "name": "Crystal Palace",
+      "description": "Navigate through an ancient ice palace with complex architecture.",
+      "obstacles": [
+        "Mirror-like surfaces",
+        "Rotating platforms",
+        "Crystal guardians",
+        "Laser traps"
+      ]
+    }
+  ]
+}

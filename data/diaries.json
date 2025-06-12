@@ -1,0 +1,34 @@
+{
+  "diaries": [
+    {
+      "title": "The Art of Ice Physics",
+      "date": "March 12, 2024",
+      "content": "In this dev diary, we dive deep into the development of our ice physics system and how we achieved the perfect balance between challenge and fun.",
+      "link": "#"
+    },
+    {
+      "title": "Designing the Crystal Palace",
+      "date": "March 8, 2024",
+      "content": "Join us as we explore the creative process behind our newest level, from initial concept to final implementation.",
+      "link": "#"
+    },
+    {
+      "title": "The Sound of Antarctica",
+      "date": "March 3, 2024",
+      "content": "Our audio team shares their journey in creating the perfect arctic atmosphere through sound design and music composition.",
+      "link": "#"
+    },
+    {
+      "title": "Community Feedback",
+      "date": "February 28, 2024",
+      "content": "We discuss how player feedback has shaped the development of Pengu Pengu and what's coming next.",
+      "link": "#"
+    },
+    {
+      "title": "The Making of Frosty",
+      "date": "February 22, 2024",
+      "content": "From concept art to animation, we reveal the process of creating our newest penguin character, Frosty.",
+      "link": "#"
+    }
+  ]
+}

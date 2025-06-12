@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "title": "Arctic Adventure",
+      "description": "Explore the frozen world of Antarctica with your penguin character, jumping across ice platforms and avoiding obstacles."
+    },
+    {
+      "title": "Dynamic Levels",
+      "description": "Experience unique challenges in each level with different ice formations, obstacles, and environmental hazards."
+    },
+    {
+      "title": "Power-ups",
+      "description": "Collect special items to gain temporary abilities like double jump, ice shield, or speed boost."
+    },
+    {
+      "title": "Character Progression",
+      "description": "Unlock new penguin characters with unique abilities and customize their appearance."
+    },
+    {
+      "title": "Achievement System",
+      "description": "Complete challenges and earn achievements to unlock special rewards and bragging rights."
+    },
+    {
+      "title": "Leaderboards",
+      "description": "Compete with players worldwide and climb the global leaderboards with your high scores."
+    },
+    {
+      "title": "Daily Challenges",
+      "description": "Take on new daily challenges with unique objectives and rewards."
+    }
+  ]
+}

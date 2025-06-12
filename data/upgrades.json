@@ -1,0 +1,39 @@
+{
+  "upgrades": [
+    {
+      "name": "Ice Shield",
+      "description": "Temporary protection from one hit of damage.",
+      "effect": "Creates a protective ice barrier around the penguin."
+    },
+    {
+      "name": "Double Jump",
+      "description": "Allows an extra mid-air jump.",
+      "effect": "Press jump again while in the air to perform a second jump."
+    },
+    {
+      "name": "Speed Boost",
+      "description": "Increases movement speed temporarily.",
+      "effect": "Makes the penguin move 50% faster for 10 seconds."
+    },
+    {
+      "name": "Ice Slide",
+      "description": "Enhanced sliding ability.",
+      "effect": "Slide faster and further on ice surfaces."
+    },
+    {
+      "name": "Fish Magnet",
+      "description": "Attracts nearby collectibles.",
+      "effect": "Automatically collects fish within a certain radius."
+    },
+    {
+      "name": "Time Freeze",
+      "description": "Briefly slows down time.",
+      "effect": "Slows down all moving objects for 5 seconds."
+    },
+    {
+      "name": "Ice Platform",
+      "description": "Creates a temporary platform.",
+      "effect": "Summons a small ice platform that lasts for 3 seconds."
+    }
+  ]
+}

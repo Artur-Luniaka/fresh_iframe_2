@@ -1,0 +1,121 @@
+.contacts-hero {
+  background: linear-gradient(
+    135deg,
+    var(--color-ice) 0%,
+    var(--color-snow) 100%
+  );
+  text-align: center;
+  padding: var(--spacing-xl) 0;
+}
+
+.contacts-hero h1 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  margin: var(--spacing-xl) 0;
+}
+
+.contact-details {
+  flex: 1;
+}
+
+.contact-item {
+  margin-bottom: var(--spacing-lg);
+}
+
+.contact-item h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.contact-item a {
+  color: var(--color-secondary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.contact-item a:hover {
+  color: var(--color-primary);
+}
+
+.contact-map {
+  flex: 1;
+  min-height: 300px;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.contact-form {
+  background-color: var(--color-snow);
+  padding: var(--spacing-xl) 0;
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+.form-group {
+  margin-bottom: var(--spacing-md);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: var(--spacing-sm);
+  border: 1px solid var(--color-ice);
+  border-radius: var(--border-radius-sm);
+  font-family: var(--font-primary);
+  transition: var(--transition-fast);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+.submit-btn {
+  background-color: var(--color-secondary);
+  color: var(--color-snow);
+  border: none;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  font-weight: 500;
+  transition: var(--transition-fast);
+}
+
+.submit-btn:hover {
+  background-color: var(--color-primary);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .contact-grid {
+    flex-direction: row;
+  }
+
+  .contact-details,
+  .contact-map {
+    flex: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-map {
+    height: 300px;
+  }
+}

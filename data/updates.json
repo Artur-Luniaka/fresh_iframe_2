@@ -1,0 +1,34 @@
+{
+  "updates": [
+    {
+      "title": "New Level: Crystal Palace",
+      "date": "March 15, 2024",
+      "content": "We're excited to announce the release of our newest level, Crystal Palace! Navigate through an ancient ice palace filled with challenging puzzles and beautiful crystal formations.",
+      "link": "#"
+    },
+    {
+      "title": "Double Jump Power-up",
+      "date": "March 10, 2024",
+      "content": "A new power-up has been added to the game! The Double Jump ability allows players to perform an extra mid-air jump, opening up new possibilities for platforming.",
+      "link": "#"
+    },
+    {
+      "title": "Daily Challenges Update",
+      "date": "March 5, 2024",
+      "content": "We've expanded the daily challenges system with new objectives and rewards. Complete unique tasks each day to earn special collectibles!",
+      "link": "#"
+    },
+    {
+      "title": "Performance Improvements",
+      "date": "March 1, 2024",
+      "content": "We've optimized the game's performance across all devices. Enjoy smoother gameplay and faster loading times!",
+      "link": "#"
+    },
+    {
+      "title": "New Penguin Character",
+      "date": "February 25, 2024",
+      "content": "Meet Frosty, the newest playable penguin character! Unlock this special character by completing the Arctic Storm level.",
+      "link": "#"
+    }
+  ]
+}
