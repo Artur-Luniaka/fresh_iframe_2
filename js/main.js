@@ -93,6 +93,17 @@ async function loadReviews() {
       (review) => `
     <div class="review-card">
       <h4>${review.name}</h4>
+      <div class="rating">
+        ${Array(5)
+          .fill()
+          .map(
+            (_, index) =>
+              `<span class="star ${
+                index < review.rating ? "filled" : ""
+              }">★</span>`
+          )
+          .join("")}
+      </div>
       <p>${review.text}</p>
     </div>
   `

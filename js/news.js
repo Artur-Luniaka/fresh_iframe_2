@@ -21,16 +21,7 @@ async function loadGameUpdates() {
   if (!container) return;
 
   container.innerHTML = updates.updates
-    .map(
-      (update) => `
-        <article class="news-card">
-            <h3>${update.title}</h3>
-            <div class="date">${update.date}</div>
-            <p>${update.content}</p>
-            <a href="${update.link}" class="read-more">Read More</a>
-        </article>
-    `
-    )
+    .map((update) => createNewsCard(update))
     .join("");
 }
 
@@ -43,17 +34,21 @@ async function loadDevDiaries() {
   if (!container) return;
 
   container.innerHTML = diaries.diaries
-    .map(
-      (diary) => `
-        <article class="news-card">
-            <h3>${diary.title}</h3>
-            <div class="date">${diary.date}</div>
-            <p>${diary.content}</p>
-            <a href="${diary.link}" class="read-more">Read More</a>
-        </article>
-    `
-    )
+    .map((diary) => createNewsCard(diary))
     .join("");
+}
+
+function createNewsCard(item) {
+  return `
+    <div class="news-card">
+      <div class="news-image" style="background-image: url('${item.image}')"></div>
+      <div class="news-content">
+        <h3>${item.title}</h3>
+        <p class="news-date">${item.date}</p>
+        <p>${item.content}</p>
+      </div>
+    </div>
+  `;
 }
 
 // Initialize all dynamic content

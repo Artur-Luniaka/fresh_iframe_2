@@ -1,24 +1,42 @@
+/* Legal Pages Styles */
 .legal-content {
   padding: var(--spacing-xl) 0;
-  background-color: var(--color-snow);
+  background: linear-gradient(
+    135deg,
+    var(--color-ice) 0%,
+    var(--color-snow) 100%
+  );
+  min-height: calc(100vh - 200px); /* Учитываем высоту хедера и футера */
 }
 
 .legal-content h1 {
   color: var(--color-primary);
   text-align: center;
   margin-bottom: var(--spacing-xl);
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .legal-text {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  background: rgba(255, 255, 255, 0.9);
+  padding: var(--spacing-xl);
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .legal-text h2 {
   color: var(--color-primary);
-  margin: var(--spacing-lg) 0 var(--spacing-md);
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: var(--spacing-xl) 0 var(--spacing-md);
+  padding-bottom: var(--spacing-sm);
+  border-bottom: 2px solid var(--color-ice);
 }
 
 .legal-text h2:first-child {
@@ -26,8 +44,22 @@
 }
 
 .legal-text p {
-  margin-bottom: var(--spacing-md);
+  color: var(--color-text);
   line-height: 1.6;
+  margin-bottom: var(--spacing-md);
+  font-size: 1.1rem;
+}
+
+.legal-text a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: var(--transition-normal);
+  border-bottom: 1px solid transparent;
+}
+
+.legal-text a:hover {
+  color: var(--color-secondary);
+  border-bottom-color: var(--color-secondary);
 }
 
 .legal-text ul {
@@ -42,18 +74,34 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .legal-content h1 {
+    font-size: 2.5rem;
+  }
+
   .legal-text {
-    padding: 0 var(--spacing-sm);
+    padding: var(--spacing-lg);
   }
 
   .legal-text h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+  }
+
+  .legal-text p {
+    font-size: 1rem;
   }
 }
 
 @media (max-width: 360px) {
+  .legal-content h1 {
+    font-size: 2rem;
+  }
+
+  .legal-text {
+    padding: var(--spacing-md);
+  }
+
   .legal-text h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .legal-text ul {

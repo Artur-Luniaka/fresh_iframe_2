@@ -1,31 +1,36 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("feedback-form");
+  const form = document.getElementById("contact-form");
+  const notification = document.getElementById("form-notification");
+
+  function showNotification(message, type) {
+    notification.textContent = message;
+    notification.className = "form-notification " + type;
+
+    // Скрыть уведомление через 5 секунд
+    setTimeout(() => {
+      notification.className = "form-notification";
+    }, 5000);
+  }
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    const formData = {
-      name: form.name.value,
-      phone: form.phone.value,
-      message: form.message.value,
-    };
+    // Получаем данные формы
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData);
 
-    try {
-      // Here you would typically send the form data to your server
-      // For now, we'll just log it and show a success message
-      console.log("Form submitted:", formData);
+    // Здесь будет код для отправки формы на сервер
+    // Пока что просто имитируем успешную отправку
+    console.log("Form data:", data);
 
-      // Show success message
-      alert("Thank you for your message! We will get back to you soon.");
+    // Очищаем форму
+    form.reset();
 
-      // Reset form
-      form.reset();
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      alert(
-        "Sorry, there was an error sending your message. Please try again later."
-      );
-    }
+    // Показываем уведомление об успехе
+    showNotification(
+      "Thank you for your message! We will get back to you soon.",
+      "success"
+    );
   });
 
   // Phone number validation

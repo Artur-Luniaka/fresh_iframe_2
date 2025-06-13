@@ -6,18 +6,18 @@ function loadHeader() {
   const headerHTML = `
         <header class="site-header">
             <div class="header-container">
-                <a href="index.html" class="logo">
-                    <span class="logo-text">Pengu Pengu</span>
+                <a href="./" class="logo">
+                    <span class="logo-text">Domain.com</span>
                 </a>
                 <button class="mobile-menu-btn" aria-label="Toggle menu">
                     <span class="menu-icon"></span>
                 </button>
                 <nav class="main-nav">
-                    <a href="index.html" class="nav-link">Home</a>
-                    <a href="pengu-log.html" class="nav-link">News</a>
-                    <a href="pengu-contacts.html" class="nav-link">Contact</a>
-                    <a href="index.html#how-to-play" class="nav-link">How to Play</a>
-                    <a href="pengu-disclaimer.html" class="nav-link">Disclaimer</a>
+                    <a href="./" class="nav-link">Iceberg</a>
+                    <a href="./pengu-log.html" class="nav-link">Penguin Post</a>
+                    <a href="./pengu-contacts.html" class="nav-link">Send a Fish</a>
+                    <a href="./#how-to-play" class="nav-link">Sliding Guide</a>
+                    <a href="./pengu-disclaimer.html" class="nav-link">Ice Rules</a>
                 </nav>
             </div>
         </header>

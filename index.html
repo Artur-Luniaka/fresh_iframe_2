@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pengu Pengu - Arctic Adventure Game</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
+    <title>Pengu Pengu | Domain.com</title>
+    <meta
+      name="description"
+      content="Join the fun in Pengu Pengu - an exciting multiplayer game where you play as adorable penguins sliding on ice, competing with friends, and exploring the Antarctic world!"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/rating.css" />
   </head>
   <body>
     <div id="header-placeholder"></div>
@@ -67,7 +73,10 @@
       <!-- Reviews Section -->
       <section class="reviews" id="reviews">
         <div class="container">
-          <h2>Player Reviews</h2>
+          <h2>Arctic Adventures</h2>
+          <p class="section-subtitle">
+            Join our penguin community and share your icy journey!
+          </p>
           <div class="reviews-container" id="reviews-container">
             <!-- Content will be loaded from JSON -->
           </div>
@@ -77,7 +86,11 @@
       <!-- Level Types Section -->
       <section class="level-types" id="level-types">
         <div class="container">
-          <h2>Level Types</h2>
+          <h2>Arctic Challenges</h2>
+          <p class="section-subtitle">
+            Discover unique ice environments and master different gameplay
+            mechanics!
+          </p>
           <div class="levels-container" id="levels-container">
             <!-- Content will be loaded from JSON -->
           </div>
@@ -87,7 +100,10 @@
       <!-- Upgrades Section -->
       <section class="upgrades" id="upgrades">
         <div class="container">
-          <h2>Power-ups & Upgrades</h2>
+          <h2>Arctic Powers</h2>
+          <p class="section-subtitle">
+            Unlock special abilities and power-ups to overcome icy challenges!
+          </p>
           <div class="upgrades-container" id="upgrades-container">
             <!-- Content will be loaded from JSON -->
           </div>
@@ -97,8 +113,16 @@
 
     <div id="footer-placeholder"></div>
 
+    <div class="cookie-bar">
+      <div class="cookie-text">
+        We use cookies to enhance your experience. By continuing to visit this
+        site you agree to our use of cookies.
+      </div>
+      <button class="cookie-button">Accept</button>
+    </div>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/cookie-bar.js"></script>
   </body>
 </html>

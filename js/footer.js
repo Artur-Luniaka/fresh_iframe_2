@@ -11,30 +11,30 @@ function loadFooter() {
                         <div class="footer-contact">
                             <div class="contact-item">
                                 <i class="fas fa-phone"></i>
-                                <a href="tel:+61234567890" class="footer-link">+61 234 567 890</a>
+                                <a href="tel:+61234567890" class="footer-link">+61 001 788 330</a>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
-                                <a href="mailto:contact@pengupengu.com" class="footer-link">contact@pengupengu.com</a>
+                                <a href="mailto:contact@domain.com" class="footer-link">contact@domain.com</a>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <span>Southern Australia</span>
+                                <span>120 Collins St, Melbourne VIC 3000, Australia</span>
                             </div>
                         </div>
                         <div class="footer-domain">
                             <span class="domain-logo">Domain.com</span>
+                            <div class="footer-legal">
+                                <a href="./pengu-privacy.html" class="legal-link">Privacy Check</a>
+                                <span class="separator">|</span>
+                                <a href="./pengu-cookies.html" class="legal-link">Cookie Check</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <div class="footer-legal">
-                        <a href="pengu-privacy.html" class="legal-link">Privacy Policy</a>
-                        <span class="separator">|</span>
-                        <a href="pengu-cookies.html" class="legal-link">Cookie Policy</a>
-                    </div>
                     <div class="footer-copyright">
-                        <p>&copy; ${new Date().getFullYear()} Pengu Pengu. All rights reserved.</p>
+                        <p>&copy; ${new Date().getFullYear()} Domain.com | All rights reserved.</p>
                     </div>
                 </div>
             </div>

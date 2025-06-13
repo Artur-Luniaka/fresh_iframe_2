@@ -1,0 +1,21 @@
+.rating {
+  display: flex;
+  gap: 4px;
+  margin-bottom: var(--spacing-md);
+}
+
+.star {
+  color: var(--color-ice);
+  font-size: 1.2rem;
+  transition: var(--transition-normal);
+}
+
+.star.filled {
+  color: #ffd700;
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.3);
+}
+
+.review-card:hover .star.filled {
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}

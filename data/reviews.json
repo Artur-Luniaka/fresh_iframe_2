@@ -2,31 +2,33 @@
   "reviews": [
     {
       "name": "Alex Thompson",
-      "text": "An amazing platformer with perfect controls and beautiful arctic visuals. The ice physics feel so satisfying!"
+      "text": "An amazing platformer with perfect controls and beautiful arctic visuals. The ice physics feel so satisfying!",
+      "rating": 5
     },
     {
       "name": "Sarah Chen",
-      "text": "I love how each level introduces new mechanics and challenges. The power-up system adds a lot of strategy to the gameplay."
+      "text": "I love how each level introduces new mechanics and challenges. The power-up system adds a lot of strategy to the gameplay.",
+      "rating": 5
     },
     {
       "name": "Mike Rodriguez",
-      "text": "The daily challenges keep me coming back every day. Great game for quick gaming sessions!"
+      "text": "The daily challenges keep me coming back every day. Great game for quick gaming sessions!",
+      "rating": 4
     },
     {
       "name": "Emma Wilson",
-      "text": "The character progression system is fantastic. Unlocking new penguins with different abilities adds so much replay value."
+      "text": "The character progression system is fantastic. Unlocking new penguins with different abilities adds so much replay value.",
+      "rating": 5
     },
     {
       "name": "James Parker",
-      "text": "Perfect balance of challenge and fun. The ice platforming mechanics are unique and engaging."
+      "text": "Perfect balance of challenge and fun. The ice platforming mechanics are unique and engaging.",
+      "rating": 4
     },
     {
       "name": "Lisa Anderson",
-      "text": "Beautiful art style and smooth animations. The arctic theme is executed perfectly!"
-    },
-    {
-      "name": "David Kim",
-      "text": "The leaderboard competition adds an extra layer of excitement. Can't stop trying to beat my high scores!"
+      "text": "Beautiful art style and smooth animations. The arctic theme is executed perfectly!",
+      "rating": 5
     }
   ]
 }
