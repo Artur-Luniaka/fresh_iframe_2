@@ -15,7 +15,7 @@ function loadFooter() {
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-envelope"></i>
-                                <a href="mailto:contact@domain.com" class="footer-link">contact@domain.com</a>
+                                <a href="mailto:contact@PlayLuckChallenge.com" class="footer-link">contact@PlayLuckChallenge.com</a>
                             </div>
                             <div class="contact-item">
                                 <i class="fas fa-map-marker-alt"></i>
@@ -23,7 +23,7 @@ function loadFooter() {
                             </div>
                         </div>
                         <div class="footer-domain">
-                            <span class="domain-logo">Domain.com</span>
+                            <span class="domain-logo">PlayLuckChallenge.com</span>
                             <div class="footer-legal">
                                 <a href="./pengu-privacy.html" class="legal-link">Privacy Check</a>
                                 <span class="separator">|</span>
@@ -34,7 +34,7 @@ function loadFooter() {
                 </div>
                 <div class="footer-bottom">
                     <div class="footer-copyright">
-                        <p>&copy; ${new Date().getFullYear()} Domain.com | All rights reserved.</p>
+                        <p>&copy; ${new Date().getFullYear()} PlayLuckChallenge.com | All rights reserved.</p>
                     </div>
                 </div>
             </div>

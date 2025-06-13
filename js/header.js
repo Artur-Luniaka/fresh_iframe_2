@@ -7,7 +7,7 @@ function loadHeader() {
         <header class="site-header">
             <div class="header-container">
                 <a href="./" class="logo">
-                    <span class="logo-text">Domain.com</span>
+                    <span class="logo-text">PlayLuckChallenge.com</span>
                 </a>
                 <button class="mobile-menu-btn" aria-label="Toggle menu">
                     <span class="menu-icon"></span>
@@ -15,7 +15,7 @@ function loadHeader() {
                 <nav class="main-nav">
                     <a href="./" class="nav-link">Iceberg</a>
                     <a href="./pengu-log.html" class="nav-link">Penguin Post</a>
-                    <a href="./pengu-contacts.html" class="nav-link">Send a Fish</a>
+                    <a href="./pengu-contacts.html" class="nav-link">Contact Us</a>
                     <a href="./#how-to-play" class="nav-link">Sliding Guide</a>
                     <a href="./pengu-disclaimer.html" class="nav-link">Ice Rules</a>
                 </nav>
